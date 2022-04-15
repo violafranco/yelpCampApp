@@ -22,16 +22,18 @@
             <form>
                 <div>
                     <label for="username">Username</label>
-                    <input type="text" name="username" id="username" placeholder="Insert your username">
+                    <input type="text" required name="username" id="username" placeholder="Insert your username">
                 </div>
 
                 <div>
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Enter yout password">
+                    <input type="password" required name="password" id="password" placeholder="Enter yout password">
                 </div>
             </form>
-            <button onclick="location.href='./home.html'">Login</button>
-            <p>Not a user yet? <span>Create an account</span></p>
+            <div class="buttonLogin">
+                <button onclick="location.href='./home.html'">Login</button>
+                <p>Not a user yet? <span onclick="location.href='./register.html'">Create an account</span></p>
+            </div>
         </section>
         <section class="sectionTestimonialLogin">
             <h4>" YelpCamp has honestly saved me hours of research time, and the camps on here are definitely well

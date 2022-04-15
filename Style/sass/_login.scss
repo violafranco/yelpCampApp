@@ -67,18 +67,42 @@ body{
                 }
             }
 
-            button{
-                padding: .8em;
-                font-size: 1em;
-                background-color: $color-primary;
+            .buttonLogin{
                 width: 70%;
-                color: $bgFormsCards;
-                font-family: 'Josefin Sans', sans-serif;
-                border: none;
-            }
 
-            p{
-                
+                button{
+                    padding: .8em;
+                    font-size: 1em;
+                    background-color: $color-primary;
+                    color: $bgFormsCards;
+                    font-family: 'Josefin Sans', sans-serif;
+                    border: none;
+                    width: 100%;
+                    cursor: pointer;
+                    transition: all .3s ease-in;
+
+
+                    &:hover {
+                        background-color: $hover;
+                        transform: translateY(-1px) scale(1.02);
+                    }
+
+                    &:active {
+                        transform: translateY(3px);
+                    }
+                }
+    
+                p{
+                    text-align: center;
+                    margin-top: .5em;
+                    font-size: .8em;
+
+                    span{
+                        color: $hover;
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
             }
         }
 
@@ -92,6 +116,20 @@ body{
                 max-width: 55%;
                 margin: auto;
                 font-family: 'Josefin Sans', sans-serif;
+                margin-bottom: 1em;
+                font-size: 1.3em;
+            }
+
+            div{
+                display: flex;
+                justify-content: center;
+                
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: justify;
+                    margin-left: 1em;
+                }                
             }
         }
     }
