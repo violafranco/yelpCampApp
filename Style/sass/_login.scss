@@ -1,0 +1,98 @@
+@import '_variables.scss';
+
+.headerLogin, .mainLogin{
+    max-width: 80vw;
+    margin: auto;
+}
+
+body{
+    .headerLogin{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-top: 3em;
+
+        a{
+            text-decoration: none;
+            color: $color-primary;
+            transition: all .3s ease-in;
+            &:hover{
+                transform: translateX(-.5em);
+                color: $hover;
+            }
+
+            i{
+                margin-right: .4em;
+            }
+        }
+    }
+
+    .mainLogin{
+        display: flex;
+        .sectionFormLogin{
+            background-color: $bgFormsCards;
+            width: 60%;
+            margin-top: 7%;
+            padding: 1em;
+
+            h2{
+                font-size: 2em;
+                max-width: 80%;
+                margin-bottom: .5em;
+            }
+            
+            form{
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 1em;
+
+                    label{
+                        color: $color-secondary;
+                        margin-bottom: .5em;
+                    }
+
+                    input{
+                        max-width: 70%;
+                        border: none;
+                        outline: none;
+                        padding: 1em;
+                        background-color: rgba(190, 190, 190, 0.2);
+
+                        &::placeholder{
+                            font-size: 1.2em;
+                            color: #afafaf;
+                        }
+                    }
+                }
+            }
+
+            button{
+                padding: .8em;
+                font-size: 1em;
+                background-color: $color-primary;
+                width: 70%;
+                color: $bgFormsCards;
+                font-family: 'Josefin Sans', sans-serif;
+                border: none;
+            }
+
+            p{
+                
+            }
+        }
+
+        .sectionTestimonialLogin{
+            max-width: 40%;
+            margin-left: 8%;
+            margin-top: 10%;
+            text-align: center;
+
+            h4{
+                max-width: 55%;
+                margin: auto;
+                font-family: 'Josefin Sans', sans-serif;
+            }
+        }
+    }
+}

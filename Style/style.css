@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Roboto:wght@300;400;700&display=swap");
+.mainIndex {
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-y: hidden;
+}
+
+.mainIndex .textMain {
+  margin-left: 8%;
+}
+
+.mainIndex .textMain .logo {
+  margin-top: 3em;
+  cursor: pointer;
+}
+
+.mainIndex .textMain article h2 {
+  font-size: 3.3em;
+  margin-top: 1.5em;
+  max-width: 60%;
+  line-height: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mainIndex .textMain article h2::-moz-selection {
+  background-color: #d2262b;
+}
+
+.mainIndex .textMain article h2::selection {
+  background-color: #d2262b;
+}
+
+.mainIndex .textMain article p {
+  color: #707070;
+  width: 70%;
+  margin-top: 1.2em;
+  margin-bottom: .9em;
+}
+
+.mainIndex .textMain article ul li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1em;
+  color: #707070;
+}
+
+.mainIndex .textMain article ul li img {
+  margin-right: .4em;
+}
+
+.mainIndex .textMain article button {
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #f5f5f5;
+  font-size: 1em;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.mainIndex .textMain article button:hover {
+  background-color: #d2262b;
+  -webkit-transform: translateY(-3px) scale(1.05);
+          transform: translateY(-3px) scale(1.05);
+}
+
+.mainIndex .textMain article button:active {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.mainIndex .imgMain {
+  height: 100vh;
+  width: 45%;
+  position: absolute;
+  right: 0;
+}
+
+.headerHome,
+.mainHome,
+.footerMain {
+  max-width: 80vw;
+  margin: auto;
+}
+
+body .headerHome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 3em;
+}
+
+body .headerHome a {
+  text-decoration: none;
+  margin-left: 1.5em;
+  color: #000;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+body .headerHome a:hover {
+  color: #d2262b;
+}
+
+body .headerHome .logoHomeMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .headerHome .loginRegisterMain button {
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #f5f5f5;
+  font-size: 1em;
+  margin-left: 1em;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+body .headerHome .loginRegisterMain button:hover {
+  background-color: #d2262b;
+  -webkit-transform: translateY(-3px) scale(1.05);
+          transform: translateY(-3px) scale(1.05);
+}
+
+body .headerHome .loginRegisterMain button:active {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+body .mainHome {
+  margin-top: 2em;
+}
+
+body .mainHome section .formMain {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 2em;
+  margin-bottom: 7%;
+}
+
+body .mainHome section .formMain div h3 {
+  font-size: 2.5em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body .mainHome section .formMain div h3::-moz-selection {
+  background-color: #d2262b;
+}
+
+body .mainHome section .formMain div h3::selection {
+  background-color: #d2262b;
+}
+
+body .mainHome section .formMain div p {
+  color: #707070;
+  margin-bottom: 1.2em;
+}
+
+body .mainHome section .formMain div form input {
+  padding: .9em;
+  border: 0.2px solid #d4d4d4;
+  outline: none;
+  margin-right: .3em;
+}
+
+body .mainHome section .formMain div form button {
+  padding: .9em;
+  margin-left: .3em;
+  border: none;
+  background-color: #000;
+  color: #f5f5f5;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+body .mainHome section .formMain div form button:hover {
+  background-color: #d2262b;
+  -webkit-transform: translateY(-1px) scale(1.02);
+          transform: translateY(-1px) scale(1.02);
+}
+
+body .mainHome section .formMain div form button:active {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+body .mainHome section .formMain .addCardMain {
+  color: #707070;
+  font-size: .8em;
+  margin-top: .5em;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+body .mainHome .cardsDisplay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .mainHome .cardsDisplay .cardsMain {
+  text-align: center;
+  background-color: #f5f5f5;
+  max-width: 31%;
+  border-radius: 10px;
+  height: auto;
+  margin-bottom: 2em;
+  padding-bottom: .7em;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  -webkit-box-shadow: 2px 0px 78px -27px rgba(0, 0, 0, 0.05);
+          box-shadow: 2px 0px 78px -27px rgba(0, 0, 0, 0.05);
+}
+
+body .mainHome .cardsDisplay .cardsMain img {
+  width: 90%;
+  height: 60%;
+  margin-bottom: .4em;
+  margin-top: 1em;
+  border-radius: 10px;
+}
+
+body .mainHome .cardsDisplay .cardsMain h4 {
+  font-size: 1em;
+  margin-bottom: .4em;
+  text-transform: uppercase;
+}
+
+body .mainHome .cardsDisplay .cardsMain p {
+  color: #707070;
+  font-size: .8em;
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+body .mainHome .cardsDisplay .cardsMain button {
+  width: 50%;
+  color: #f5f5f5;
+  padding: .8em;
+  background-color: #000;
+  border: none;
+  margin-bottom: 1.5em;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+body .mainHome .cardsDisplay .cardsMain button:hover {
+  background-color: #d2262b;
+  border: none;
+}
+
+body .mainHome .cardsDisplay .cardsMain:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 0px 78px -27px rgba(0, 0, 0, 0.67);
+          box-shadow: 2px 0px 78px -27px rgba(0, 0, 0, 0.67);
+}
+
+body .footerMain {
+  margin-top: 5em;
+}
+
+.headerLogin, .mainLogin {
+  max-width: 80vw;
+  margin: auto;
+}
+
+body .headerLogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 3em;
+}
+
+body .headerLogin a {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+body .headerLogin a:hover {
+  -webkit-transform: translateX(-0.5em);
+          transform: translateX(-0.5em);
+  color: #d2262b;
+}
+
+body .headerLogin a i {
+  margin-right: .4em;
+}
+
+body .mainLogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .mainLogin .sectionFormLogin {
+  background-color: #f5f5f5;
+  width: 60%;
+  margin-top: 7%;
+  padding: 1em;
+}
+
+body .mainLogin .sectionFormLogin h2 {
+  font-size: 2em;
+  max-width: 80%;
+  margin-bottom: .5em;
+}
+
+body .mainLogin .sectionFormLogin form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1em;
+}
+
+body .mainLogin .sectionFormLogin form div label {
+  color: #707070;
+  margin-bottom: .5em;
+}
+
+body .mainLogin .sectionFormLogin form div input {
+  max-width: 70%;
+  border: none;
+  outline: none;
+  padding: 1em;
+  background-color: rgba(190, 190, 190, 0.2);
+}
+
+body .mainLogin .sectionFormLogin form div input::-webkit-input-placeholder {
+  font-size: 1.2em;
+  color: #afafaf;
+}
+
+body .mainLogin .sectionFormLogin form div input:-ms-input-placeholder {
+  font-size: 1.2em;
+  color: #afafaf;
+}
+
+body .mainLogin .sectionFormLogin form div input::-ms-input-placeholder {
+  font-size: 1.2em;
+  color: #afafaf;
+}
+
+body .mainLogin .sectionFormLogin form div input::placeholder {
+  font-size: 1.2em;
+  color: #afafaf;
+}
+
+body .mainLogin .sectionFormLogin button {
+  padding: .8em;
+  font-size: 1em;
+  background-color: #000;
+  width: 70%;
+  color: #f5f5f5;
+  font-family: 'Josefin Sans', sans-serif;
+  border: none;
+}
+
+body .mainLogin .sectionTestimonialLogin {
+  max-width: 40%;
+  margin-left: 8%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+body .mainLogin .sectionTestimonialLogin h4 {
+  max-width: 55%;
+  margin: auto;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
